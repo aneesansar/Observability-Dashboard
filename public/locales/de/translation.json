@@ -1,0 +1,56 @@
+{
+  "app": {
+    "title": "Speedie",
+    "logout": "Abmelden",
+    "profile": "Profil",
+    "language": "Sprache"
+  },
+  "nav": {
+    "expand_sidebar": "Seitenleiste erweitern",
+    "collapse_sidebar": "Seitenleiste einklappen",
+    "toggle_sidebar": "Seitenleiste umschalten"
+  },
+  "general": {
+    "refresh": "Aktualisieren",
+    "loading": "Lädt...",
+    "no_data": "Keine Daten vorhanden",
+    "actions": "Aktionen",
+    "date": "Datum",
+    "status": "Status",
+    "show_count": "Zeige {{shown}} von {{total}} Einträgen",
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "search": "Suchen",
+    "settings": "Einstellungen",
+    "pagination": "Seitennavigation",
+    "review": "Überprüfen",
+    "update": "Bearbeiten",
+    "delete": "Löschen",
+    "copy_clipboard": "In Zwischenablage kopieren",
+    "download": "Herunterladen"
+  },
+  "accessibility": {
+    "logo": "Logo",
+    "app_icon": "App-Symbol"
+  },
+  "filter": {
+    "columns": "Nach Spalten filtern",
+    "filters": "Filter",
+    "status": "Status",
+    "all": "Alle",
+    "reset": "Zurücksetzen",
+    "apply": "Filter anwenden"
+  },
+  "button": {
+    "apply": "Anwenden",
+    "reset": "Zurücksetzen",
+    "close": "Schließen"
+  },
+  "pagetitle": {
+    "Observability": "Observability",
+    "Dashboard": "Dashboard",
+    "Metrics": "Metrics",
+    "Logs": "Logs",
+    "Traces": "Traces"
+  }
+}

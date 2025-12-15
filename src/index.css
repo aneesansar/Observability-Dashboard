@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: rgb(34 89 230);
+  --color-secondary: rgb(107 110 128);
+  --color-secondary-500: rgb(192 147 74);
+  --color-lavender: rgb(209 217 229);
+  --color-light-blue: rgb(194 222 229);
+  --color-mimi-pink: rgb(242 219 227);
+  --color-parchment: rgb(242 232 207);
+  --color-mint-green: rgb(207 235 232);
+  --color-anti-flash-white: rgb(245 247 250);
+  --color-platinum: rgb(224 229 232);
+  --color-french-gray: rgb(196 201 207);
+  --color-slate-gray: rgb(117 125 140);
+  --color-charcoal: rgb(51 61 77);
+  --color-rich-black: rgb(15 23 31);
+  --gradient-brand: linear-gradient(90deg, #2152E4 18.3%, #7C26A6 82.66%);
+}
+
+@utility bg-gradient-brand {
+  background-image: var(--gradient-brand);
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* Prevent horizontal scrolling globally */
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+  width: 100%;
+  position: relative;
+}
+
+/* Ensure root container doesn't cause overflow */
+#root {
+  overflow-x: hidden;
+  max-width: 100vw;
+  width: 100%;
+}
+
+/* Mobile-specific fixes */
+@media (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden !important;
+    max-width: 100vw !important;
+    width: 100% !important;
+    position: relative;
+  }
+  
+  #root {
+    overflow-x: hidden !important;
+    max-width: 100vw !important;
+    width: 100% !important;
+  }
+  
+  /* Prevent touch scrolling beyond content */
+  body {
+    overscroll-behavior-x: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* Fix for mobile viewport */
+  * {
+    max-width: 100vw;
+  }
+}
+
+/* Global pointer cursor for clickable elements */
+button,
+a,
+[role="button"],
+label[for],
+input[type="checkbox"],
+input[type="radio"] {
+  cursor: pointer;
+}

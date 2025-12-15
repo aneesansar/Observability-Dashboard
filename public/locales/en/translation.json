@@ -1,0 +1,56 @@
+{
+  "app": {
+    "title": "Speedie",
+    "logout": "Log out",
+    "profile": "Profile",
+    "language": "Language"
+  },
+  "nav": {
+    "expand_sidebar": "Expand sidebar",
+    "collapse_sidebar": "Collapse sidebar",
+    "toggle_sidebar": "Toggle sidebar"
+  },
+  "general": {
+    "refresh": "Refresh",
+    "loading": "Loading...",
+    "no_data": "No data available",
+    "actions": "Actions",
+    "date": "Date",
+    "status": "Status",
+    "show_count": "Showing {{shown}} of {{total}} items",
+    "cancel": "Cancel",
+    "close": "Close",
+    "search": "Search",
+    "settings": "Settings",
+    "pagination": "Pagination",
+    "review": "Review",
+    "update": "Update",
+    "delete": "Delete",
+    "copy_clipboard": "Copy to clipboard",
+    "download": "Download"
+  },
+  "accessibility": {
+    "logo": "Logo",
+    "app_icon": "App icon"
+  },
+  "filter": {
+    "columns": "Filter By Columns",
+    "filters": "Filters",
+    "status": "Status",
+    "all": "All",
+    "reset": "Reset",
+    "apply": "Apply Filters"
+  },
+  "button": {
+    "apply": "Apply",
+    "reset": "Reset",
+    "close": "Close"
+  },
+  "pagetitle": {
+    "Observability": "Observability",
+    "Dashboard": "Dashboard",
+    "Metrics": "Metrics",
+    "Logs": "Logs",
+    "Traces": "Traces"
+  }
+}
