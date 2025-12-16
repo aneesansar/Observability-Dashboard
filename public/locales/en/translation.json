@@ -51,6 +51,86 @@
     "Dashboard": "Dashboard",
     "Metrics": "Metrics",
     "Logs": "Logs",
-    "Traces": "Traces"
+    "Traces": "Traces",
+    "RAG Query": "RAG Query"
+  },
+  "rag": {
+    "search_placeholder": "Enter your travel query...",
+    "top_k": "Results:",
+    "searching": "Searching...",
+    "query": "Query",
+    "your_search": "Your search",
+    "results_found": "Results Found",
+    "matching_trips": "Matching trips",
+    "tenant": "Tenant",
+    "data_source": "Data source",
+    "filters": "Filters",
+    "applied": "Applied",
+    "answer": "Answer",
+    "reasoning": "Reasoning",
+    "steps": "steps",
+    "hide_results": "Hide Results",
+    "show_results": "Show Results",
+    "trip_name": "Trip Name",
+    "country": "Country",
+    "duration": "Duration",
+    "days": "days",
+    "provider": "Provider",
+    "score": "Score",
+    "link": "Link",
+    "view": "View",
+    "no_results": "No results found",
+    "start_searching": "Start Searching",
+    "search_description": "Enter a travel query to find matching trips and get AI-powered recommendations.",
+    "view_details": "View Details",
+    "hide_schedules": "Hide Schedules",
+    "show_schedules": "Show Schedules",
+    "start": "Start",
+    "end": "End",
+    "airport": "Airport"
+  },
+  "feedback": {
+    "modal_title_positive": "Positive Feedback",
+    "modal_title_negative": "Negative Feedback",
+    "modal_help_text": "Help us improve by sharing your feedback",
+    "positive": "Helpful response",
+    "negative": "Not helpful",
+    "thanks": "Thanks for your feedback!",
+    "success": "Thank you for your feedback!",
+    "fields": {
+      "feedback": "Your Feedback",
+      "reason": "Reason",
+      "suggested_answer": "Suggested Answer"
+    },
+    "placeholders": {
+      "feedback_positive": "What did you like about this response?",
+      "feedback_negative": "What was wrong with this response?",
+      "suggested_answer": "What would be the correct answer?"
+    },
+    "reasons": {
+      "select": "Select a reason...",
+      "positive": {
+        "correct": "Correct",
+        "accurate": "Accurate",
+        "helpful": "Helpful",
+        "well_formatted": "Well Formatted",
+        "complete": "Complete",
+        "other": "Other"
+      },
+      "negative": {
+        "incorrect": "Incorrect",
+        "incomplete": "Incomplete",
+        "irrelevant": "Irrelevant",
+        "unclear": "Unclear",
+        "other": "Other"
+      }
+    },
+    "buttons": {
+      "submit": "Submit Feedback"
+    },
+    "error": {
+      "no_conversation": "No conversation ID available",
+      "submit": "Failed to submit feedback"
+    }
   }
 }

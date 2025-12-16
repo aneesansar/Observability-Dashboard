@@ -51,6 +51,86 @@
     "Dashboard": "Dashboard",
     "Metrics": "Metrics",
     "Logs": "Logs",
-    "Traces": "Traces"
+    "Traces": "Traces",
+    "RAG Query": "RAG-Abfrage"
+  },
+  "rag": {
+    "search_placeholder": "Geben Sie Ihre Reiseanfrage ein...",
+    "top_k": "Ergebnisse:",
+    "searching": "Suche läuft...",
+    "query": "Abfrage",
+    "your_search": "Ihre Suche",
+    "results_found": "Ergebnisse gefunden",
+    "matching_trips": "Passende Reisen",
+    "tenant": "Mandant",
+    "data_source": "Datenquelle",
+    "filters": "Filter",
+    "applied": "Angewendet",
+    "answer": "Antwort",
+    "reasoning": "Begründung",
+    "steps": "Schritte",
+    "hide_results": "Ergebnisse ausblenden",
+    "show_results": "Ergebnisse anzeigen",
+    "trip_name": "Reisename",
+    "country": "Land",
+    "duration": "Dauer",
+    "days": "Tage",
+    "provider": "Anbieter",
+    "score": "Bewertung",
+    "link": "Link",
+    "view": "Ansehen",
+    "no_results": "Keine Ergebnisse gefunden",
+    "start_searching": "Suche starten",
+    "search_description": "Geben Sie eine Reiseanfrage ein, um passende Reisen zu finden und KI-gestützte Empfehlungen zu erhalten.",
+    "view_details": "Details anzeigen",
+    "hide_schedules": "Termine ausblenden",
+    "show_schedules": "Termine anzeigen",
+    "start": "Start",
+    "end": "Ende",
+    "airport": "Flughafen"
+  },
+  "feedback": {
+    "modal_title_positive": "Positives Feedback",
+    "modal_title_negative": "Negatives Feedback",
+    "modal_help_text": "Helfen Sie uns, uns zu verbessern, indem Sie Ihr Feedback teilen",
+    "positive": "Hilfreiche Antwort",
+    "negative": "Nicht hilfreich",
+    "thanks": "Danke für Ihr Feedback!",
+    "success": "Vielen Dank für Ihr Feedback!",
+    "fields": {
+      "feedback": "Ihr Feedback",
+      "reason": "Grund",
+      "suggested_answer": "Vorgeschlagene Antwort"
+    },
+    "placeholders": {
+      "feedback_positive": "Was hat Ihnen an dieser Antwort gefallen?",
+      "feedback_negative": "Was war an dieser Antwort falsch?",
+      "suggested_answer": "Was wäre die richtige Antwort?"
+    },
+    "reasons": {
+      "select": "Grund auswählen...",
+      "positive": {
+        "correct": "Korrekt",
+        "accurate": "Genau",
+        "helpful": "Hilfreich",
+        "well_formatted": "Gut formatiert",
+        "complete": "Vollständig",
+        "other": "Sonstiges"
+      },
+      "negative": {
+        "incorrect": "Falsch",
+        "incomplete": "Unvollständig",
+        "irrelevant": "Irrelevant",
+        "unclear": "Unklar",
+        "other": "Sonstiges"
+      }
+    },
+    "buttons": {
+      "submit": "Feedback senden"
+    },
+    "error": {
+      "no_conversation": "Keine Konversations-ID verfügbar",
+      "submit": "Feedback konnte nicht gesendet werden"
+    }
   }
 }

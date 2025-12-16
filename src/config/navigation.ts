@@ -4,6 +4,7 @@ import {
   ChartBarIcon,
   CogIcon,
   DocumentTextIcon,
+  MagnifyingGlassIcon,
 } from "@heroicons/react/24/outline";
 import type { NavItem } from "../types/navigation.types";
 
@@ -39,6 +40,12 @@ export const navigation: NavItem[] = [
         current: false,
       },
     ],
+  },
+  {
+    name: "RAG Query",
+    href: "/rag-query",
+    icon: MagnifyingGlassIcon,
+    current: false,
   },
 ];
 

@@ -3,6 +3,7 @@ import ObservabilityDashboardPage from "../pages/ObservabilityDashboardPage";
 import ObservabilityMetricsPage from "../pages/ObservabilityMetricsPage";
 import LogsPage from "../pages/LogsPage";
 import TracesPage from "../pages/TracesPage";
+import RagQueryPage from "../pages/RagQueryPage";
 import ProtectedRoute from "./ProtectedRoute";
 
 export default function AppRoutes() {
@@ -47,6 +48,14 @@ export default function AppRoutes() {
           element={
             <ProtectedRoute>
               <TracesPage />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/rag-query"
+          element={
+            <ProtectedRoute>
+              <RagQueryPage />
             </ProtectedRoute>
           }
         />
